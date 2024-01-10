@@ -1,1 +1,11 @@
 # modelo
+## paginas 
+- page-home.php
+- index.php 
+- single-post.php
+- page-sobre.php
+- category.php
+- tag.php
+- autor.php
+- busca.php
+- screenshot.png
