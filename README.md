@@ -8,4 +8,5 @@
 - tag.php
 - autor.php
 - busca.php
+- page-404.php
 - screenshot.png

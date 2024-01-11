@@ -1,0 +1,22 @@
+.header-topo{
+  font-family: "Poppins";
+  font-weight: 400;
+  font-size: 14px;
+  background-color: #fff;
+  padding: 5px;
+  .header-topo-links{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 40px;
+
+    .header-topo-link{
+      display: flex;
+      gap: 5px;
+      align-items: center;
+    }
+  }
+
+
+
+}
