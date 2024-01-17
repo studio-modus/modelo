@@ -4,6 +4,37 @@
   box-sizing: border-box;
 }
 
+// BOTÕES
+.btn-primario{
+  background-color: #AB8554;
+  padding: 6px 20px;
+}
+.subtitulo{
+  font-size: 12px;
+  font-family: "Poppins";
+  font-weight: 700;
+}
+
+.btn-lermais{
+  background-color: #505050;
+  border-radius: 4px;
+  backdrop-filter: blur(40px);
+  padding: 6px 20px;
+  color: #FFF;
+  font-family: Poppins;
+  font-size: 18px;
+  font-weight: 600;
+}
+
+.parceiros{
+  margin: 0 60px;
+  border: 1px solid gold;
+
+}
+
+
+
+
 
 a {
   text-decoration: none;
@@ -20,6 +51,7 @@ body {
 }
 
 .container {
+  border: 1px solid red;
   max-width: 1420px;
   margin: 0 auto;
   padding: 0px 20px;
@@ -28,7 +60,7 @@ body {
 
 .col-100 {
   padding: 60px 0;
-  background-color: #0E1013;
+  background-color: #ffffff;
 }
 
 .hidden{
@@ -37,7 +69,7 @@ body {
 
 
 .sessao {
-  padding: 150px 0;
+  padding: 120px 0;
 }
 
 
@@ -50,9 +82,9 @@ body {
 }
 
 .grid-2 {
-  // border: 1px solid greenyellow;
+  border: 1px solid greenyellow;
   display: grid;
-  grid-template-columns: 1fr 1fr;
+  grid-template-columns: 710px 710px;
   gap: 40px;
 }
 

@@ -1,0 +1,99 @@
+.contato-bg{
+
+  background-color: #E2E6E9;
+
+}
+
+.contato-txt{
+  display: flex;
+  gap: 60px;
+  flex-direction: column;
+  h2{
+    font-size: 56px;
+    font-weight: 700;
+    font-family: "PP Pier Sans";
+  }
+  .contato-txt-lista{
+    display: flex;
+    gap: 20px;
+    flex-direction: column;
+  }
+  .contato-topico-txt{
+    display: flex;
+
+    border-bottom: 1px solid #6E6E6E;
+    padding: 30px 0;
+    gap: 20px;
+    width: 450px;
+
+    .contato-bloco-txt{
+      display: flex;
+      flex-direction: column;
+      gap: 10px;
+      h3{
+          font-family: "Poppins";
+          font-size: 24px;
+          font-weight: 600;
+      }
+      p{
+        font-size: 16px;
+        font-weight: 500;
+        font-family: "Poppins";
+        line-height: 28px;
+        color: #6E6E6E;
+
+      }
+    }
+  }
+}
+
+.contato-formulario{
+  display: flex;
+  flex-direction: column;
+  gap: 70px;
+  h2{
+    font-size: 48px;
+    font-family: "Poppins";
+    font-weight: 400;
+    line-height: 140%; /* 67.2px */
+
+  }
+}
+
+.contact-form{
+form{
+
+
+  display: flex;
+  gap: 5px;
+  flex-direction: column;
+}
+input{
+  color: #6E6E6E;
+  font-size: 16px;
+  font-family: "Poppins";
+
+  border-radius: 5px;
+  border: transparent;
+  padding: 20px 30px;
+}
+textarea{
+  color: #6E6E6E;
+  font-size: 16px;
+  font-family: "Poppins";
+
+  padding: 20px 10px 50px 30px;
+  border-radius: 5px;
+  border: transparent;
+}
+.btn-form{
+  padding: 10px;
+  border-radius: 5px;
+  border: transparent;
+  background-color: #505050;
+  color: #fff;
+  font-size: 24px;
+  font-family: "Poppins";
+  font-weight: 800;
+}
+}
